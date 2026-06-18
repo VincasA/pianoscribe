@@ -14,3 +14,8 @@ app.add_middleware(
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.post("/ping")
+def ping():
+    return {"message": "pong"}
