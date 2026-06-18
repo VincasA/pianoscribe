@@ -1,1 +1,33 @@
+.DS_Store
 .DS_STORE
+
+# frontend dependencies
+src/frontend/node_modules/
+src/frontend/.pnp
+src/frontend/.pnp.*
+src/frontend/.yarn/*
+!src/frontend/.yarn/patches
+!src/frontend/.yarn/plugins
+!src/frontend/.yarn/releases
+!src/frontend/.yarn/versions
+
+# frontend build output
+src/frontend/.next/
+src/frontend/out/
+src/frontend/build/
+
+# frontend testing
+src/frontend/coverage/
+
+# frontend env files
+src/frontend/.env*
+
+# frontend misc
+src/frontend/*.pem
+src/frontend/npm-debug.log*
+src/frontend/yarn-debug.log*
+src/frontend/yarn-error.log*
+src/frontend/.pnpm-debug.log*
+src/frontend/.vercel
+src/frontend/*.tsbuildinfo
+src/frontend/next-env.d.ts
